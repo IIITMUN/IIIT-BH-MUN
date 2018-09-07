@@ -46,15 +46,16 @@
 	font-size: 180px;
 }
 .timeclock{
-  background-color: #012754;
+  margin-top: 5.2%;
+  background-image: linear-gradient(#A7CFF7, white);
 
 }
 #clockdiv{
   padding-top: 5%;
-  padding-left: 30%;
+  padding-left: 35%;
   padding-bottom: 5%;
   font-family: sans-serif;
-  color: #fff;
+  color: black;
   display: inline-block;
   font-weight: 100;
   text-align: center;
@@ -64,20 +65,20 @@
 #clockdiv > div{
   padding: 15px;
   border-radius: 20px;
-  background: #3E5774;
+  background-image: linear-gradient(#A7CFF7, white);
   display: inline-block;
 }
 
 #clockdiv div > span{
   padding: 15px;
   border-radius: 3px;
-  background: #6382A6;
+  background-image: linear-gradient(#A7CFF7, white);
   display: inline-block;
 }
 
 .smalltext{
   padding-top: 5px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /*#clock{
@@ -314,6 +315,10 @@ h5 {
   padding-left: 3%;
   padding-bottom: 5%;
   }
+
+  .timeclock{
+    margin-top:0%;
+  }
 	/*.clock1{
 		margin-left: 0px;
 		word-spacing: 10px;
@@ -338,7 +343,7 @@ h5 {
 	}
 	.letter-detail{
 		
-		margin-left: 0px;
+		margin-left: 10px;
 		font-size: 15px;
 	}
 	.nav-justified>li {
@@ -399,6 +404,13 @@ h5 {
   padding-bottom: 10px;
   text-align: center;
   transform: translateY(-50%);
+}
+.quote span{
+  margin-right: 10%;
+}
+.quote span img{
+  height: 100px;
+  width: 100px;
 }
 
 }
