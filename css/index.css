@@ -253,8 +253,17 @@
 	color: white;
 	padding:100px;
 }
+.co-item{
+  margin-top: 5%;
+  font-size: 20px;
+  color: white;
+}
+.comm-head{
+  text-align: center;
+  font-size: 30px;
+}
 .carousel-item {
-  height: 100vh;
+  height: 80vh;
   background: #212121;
 }
 
@@ -263,13 +272,7 @@
   width: 8% !important;
 }
 
-.carousel-item.active,
-.carousel-item-left,
-.carousel-item-right {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .carousel-item  {
     color: white;
@@ -414,6 +417,19 @@ h5 {
 .quote span img{
   height: 100px;
   width: 100px;
+}
+.carousel-item {
+  height: 120vh;
+  background: #212121;
+}
+.co-item{
+  margin-top: 5%;
+  font-size: 15px;
+  color: white;
+}
+.comm-head{
+  text-align: center;
+  font-size: 30px;
 }
 
 }
