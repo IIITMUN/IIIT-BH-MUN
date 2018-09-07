@@ -45,8 +45,42 @@
 	padding-left: 10%;
 	font-size: 180px;
 }
+.timeclock{
+  background-color: #012754;
 
-#clock{
+}
+#clockdiv{
+  padding-top: 10%;
+  padding-left: 30%;
+  padding-bottom: 10%;
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 60px;
+}
+
+#clockdiv > div{
+  padding: 15px;
+  border-radius: 3px;
+  background: #3E5774;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #6382A6;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+/*#clock{
 	margin-top: 5%;
 	font-size: 60px;
 	margin-left: 40%;
@@ -56,7 +90,7 @@
 	margin-left: 40%;
 	word-spacing: 40px;
 }
-
+*/
 .letter{
 	position: relative;
 	top: 100%;
@@ -65,12 +99,12 @@
 	
 	
 }
-#days,#hour,#min,#sec
+/*#days,#hour,#min,#sec
 {
 	font-size: 40px;
 	padding: 5px;
 	color: red;
-}
+}*/
 .Sec{
 	
 	text-decoration-color: red; 
@@ -273,7 +307,14 @@ h5 {
 		padding-top: 40%;
 		font-size: 40px;
 	}
-	.clock1{
+  #clockdiv{
+    font-size: 10px;
+    display: block;
+    padding-top: 5%;
+  padding-left: 3%;
+  padding-bottom: 5%;
+  }
+	/*.clock1{
 		margin-left: 0px;
 		word-spacing: 10px;
 		font-size: 40px;
@@ -287,7 +328,7 @@ h5 {
 {
 	font-size: 20px;
 	padding: 5px;
-}
+}*/
 	.Sec{
 		font-size: 30px;
 		margin-left: 5px;
