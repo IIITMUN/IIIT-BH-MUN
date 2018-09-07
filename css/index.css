@@ -309,7 +309,7 @@ h5 {
 		font-size: 40px;
 	}
   #clockdiv{
-    font-size: 10px;
+    font-size: 13px;
     display: block;
     padding-top: 5%;
   padding-left: 3%;
@@ -318,6 +318,9 @@ h5 {
 
   .timeclock{
     margin-top:0%;
+  }
+  .smalltext{
+    font-size: 14px;
   }
 	/*.clock1{
 		margin-left: 0px;
