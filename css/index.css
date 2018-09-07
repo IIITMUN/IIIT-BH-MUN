@@ -19,8 +19,9 @@
 
 
 .front-back	{
-	background-color: rgb(0,0,0,0.7);
-	z-index: 0;
+	background-color: rgb(0,0,0);
+	opacity: 0.7;
+	z-index: 120;
 	top: 0;
 	width: 100%;
     height: 100%;
@@ -84,8 +85,8 @@
 
 .letter-detail{
 	margin-left: 10%;
-	
 	font-size: 25px;
+	margin-right: 10%; 
 }
 .commitee{
 	margin-top: 10%;
@@ -101,7 +102,7 @@
 	margin-top:-2%;
 	width: 90%;
 	padding-left: 5%;
-	padding-right: 5%;
+	
 	padding-bottom: 10%;
 }
 .contact{
@@ -129,6 +130,7 @@
 .footer{
 	padding-bottom: 8%;
 	background-color: #012754;
+	width: 100%;
 }
 
 .other-media{
@@ -142,32 +144,64 @@
 	margin-top: -10%;
 	font-family: 'Cormorant', serif;
 }
-.support-social{text-align:center;padding-right: 20px;}
+
 .social {
-  display:inline-block;
-  width:90px;
-  height:90px;
-  margin:0 10px;
-  line-height:84px;
-  font-size:45px;
-  text-align:center;
-  color:#2d2d32;
-  border:1.5px solid;
-  border-radius:50%;
-  background:#fff;
-  overflow:hidden;
-  transition:color .3s;
+  position: absolute;
+  width: 100%;
+  padding-top: 5%;
+  text-align: center;
+  transform: translateY(-50%);
 }
-.social:hover {color:red;cursor: pointer;}
-.fa-instagram:hover{
-  color: #c32aa3;
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px dashed white;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 70px;
 }
-.fa-facebook:hover{
-  color: #3b5998;
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.fa-twitter:hover{
-  color: #1da1f2;
+
+.social .link:hover {
+  padding: 20px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
 }
+
+.social .link.instagram {
+  background-color: #bc2a8d;
+  color: white;
+}
+
+.social .link.twitter {
+  background-color: #00ACEE;
+  color: white;
+}
+
+.social .link.facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
+
 .comm-font{
 	font-size: 25px;
 }
@@ -262,7 +296,9 @@ h5 {
 		padding-top: 50%;
 	}
 	.letter-detail{
-		margin-right: 0px;
+		
+		margin-left: 0px;
+		font-size: 15px;
 	}
 	.nav-justified>li {
     display: table-cell;
@@ -299,21 +335,31 @@ h5 {
   }
   .other-media{
   	font-size: 25px;
+  	padding-bottom: 40px;
   }
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
 }
-@media only screen and (max-width: 480px){
-	.IIITMUN{
-		font-size: 60px;
-		margin-top: 5%;
-	}
-	.quote{
-		padding-top: 40%;
-		font-size: 40px;
-	}
-	.clock1{
-		margin-left: 0px;
-		word-spacing: 10px;
-		font-size: 40px;
-	}
+.social {
+  position: absolute;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  transform: translateY(-50%);
 }
+
+}
+
 
