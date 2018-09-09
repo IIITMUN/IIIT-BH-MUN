@@ -43,7 +43,7 @@
 	font-family: 'Cormorant', serif;
 	padding-top: -50px;
 	padding-left: 10%;
-	font-size: 180px;
+	font-size: 120px;
 }
 .timeclock{
   margin-top: 0%;
@@ -304,7 +304,7 @@ h5 {
 @media only screen and (max-width: 768px){
 
 	.IIITMUN{
-		font-size: 75px;
+		font-size: 50px;
 		margin-top: 5%;
 	}
 	.quote{

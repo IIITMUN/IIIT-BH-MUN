@@ -52,12 +52,13 @@
 }
 
 .box {
+    margin-bottom: 80px;
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    padding: 10px 25px;
+    padding: 20px 25px;
     text-align: right;
     display: block;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .box-icon {
     background-color: #57a544;
