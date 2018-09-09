@@ -29,20 +29,14 @@
 		background-repeat:  no-repeat;
 		background-size:  cover;
 }
-.quote{
-	color: #CAC3C8;
-	margin-top: 20%;
-	padding-left: 10%;
-	font-family: 'Cardo', serif;
-	font-size: 80px;
-}
+
 
 .IIITMUN
 {
 	color: #CAC3C8;
 	font-family: 'Cormorant', serif;
 	padding-top: -50px;
-	padding-left: 10%;
+	padding-left: 33%;
 	font-size: 120px;
 }
 .timeclock{
@@ -52,7 +46,7 @@
 }
 #clockdiv{
   padding-top: 2%;
-  padding-left: 31%;
+  padding-left: 36%;
   padding-bottom: 2%;
   font-family: sans-serif;
   color: black;
@@ -301,11 +295,18 @@ h5 {
     clear: both;
     display: table;
 }
+.img{
+  margin-top: 10%;;margin-left: 40%;
+}
 @media only screen and (max-width: 768px){
 
+  .overlay{
+    height: 55%;
+  }
 	.IIITMUN{
 		font-size: 50px;
 		margin-top: 5%;
+    padding-left: 10%;
 	}
 	.quote{
 		padding-top: 40%;
@@ -314,7 +315,7 @@ h5 {
   #clockdiv{
     font-size: 13px;
     display: block;
-    padding-top: 5%;
+    padding-top: 15%;
   padding-left: 3%;
   padding-bottom: 5%;
   }
@@ -414,9 +415,12 @@ h5 {
 .quote span{
   margin-right: 10%;
 }
-.quote span img{
+.img{
+  margin-left: 35%;
+}
+.img img{
   height: 100px;
-  width: 100px;
+  width: 125px;
 }
 .carousel-item {
   height: 120vh;
