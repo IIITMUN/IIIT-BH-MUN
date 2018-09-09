@@ -141,7 +141,7 @@
 	padding-bottom: 10%;
 }
 .contact{
-	padding: 3%;
+	padding: 5%;
 	text-align: center;
 	font-family: 'Cormorant', serif;
 	font-size: 60px;
@@ -192,8 +192,8 @@
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   border: 2px dashed white;
   background-clip: content-box;
