@@ -7,22 +7,22 @@
     background: #031634 none repeat scroll 0% 0%;
     padding: 10px 0px;
 }
-.head{
+/*.head{
   margin-top: 1%;
   text-align: center;
   font-size: 40px;
   font-family: 'Cormorant', serif;
-}
+}*/
 
 .pulse-btn {
     text-align: center;
     padding: 30px 0;
 }
-.pulse-btn .btn {
-    font-size: 22px;
+.pulse-btn .btn-primary {
+    font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 0.5em 1.5em;
+    padding: 0.5em 2.0em;
     animation: pulse 1.5s cubic-bezier(0.66, 0.67, 0.83, 0.99) infinite;
 }
 @media (max-width: 767px) {
@@ -76,7 +76,7 @@
 }
 .info > p {
     color: #717171;
-    font-size: 16px;
+    font-size: 20px;
     padding-top: 10px;
     text-align: justify;
 }
@@ -92,4 +92,11 @@
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
     color: #fff;
     transition: all 0.5s ease 0s;
+}
+.btn-success{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.5em 2.0em;
+    animation: pulse 1.5s cubic-bezier(0.66, 0.67, 0.83, 0.99) infinite;
 }
