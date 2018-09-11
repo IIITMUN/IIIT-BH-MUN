@@ -100,6 +100,7 @@
 	
 	
 }
+
 /*#days,#hour,#min,#sec
 {
 	font-size: 40px;
@@ -122,6 +123,11 @@
 	margin-left: 10%;
 	font-size: 25px;
 	margin-right: 10%; 
+}
+.letter-detail img{
+  width:400px;
+  height:150px;
+  opacity: 0.8;
 }
 .commitee{
 	margin-top: 10%;
@@ -320,6 +326,9 @@ h5 {
 		padding-top: 40%;
 		font-size: 40px;
 	}
+  .letter-detail img{
+  display: none;
+}
   #clockdiv{
     font-size: 13px;
     display: block;
