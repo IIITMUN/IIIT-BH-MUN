@@ -45,6 +45,14 @@
   font-size: 35px;
   padding-left: 16%;
 }
+.shortdate a{
+  padding-left:8%;
+  padding-right: 6%;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+
+}
 .timeclock{
   margin-top: 0%;
   background-image: linear-gradient(#A7CFF7, white);
@@ -339,6 +347,12 @@ h5 {
   .shortdate{
     font-size: 20px;
   }
+  .shortdate a{
+    margin-left: 5%;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
 
   .timeclock{
     margin-top:0%;
